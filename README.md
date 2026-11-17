@@ -78,6 +78,6 @@ Local verification used Node 20.19.0 and current Chrome. After the Tallyleaf red
 
 ## Technology and credits
 
-Next.js 14.2.35, React 18.3.1, TypeScript 5.3.3, and Tailwind CSS 3.4.1. The pinned dependencies have known advisories; review and upgrade them before production deployment.
+Next.js 15.5.29, React 19.3.1, TypeScript 5.3.3, and Tailwind CSS 3.4.1. Dependencies are pinned; review advisories and upgrade them before production deployment.
 
 Card, Badge, Textarea and Alert follow the shadcn/ui source patterns; Separator and NativeSelect are dependency-free equivalents that avoid adding Radix packages. Button and Input retain their original shadcn/ui source from revision [`c21ecfb665214e18cd5914ea319f925cd676e786`](https://github.com/shadcn-ui/ui/tree/c21ecfb665214e18cd5914ea319f925cd676e786), under `apps/www/registry/default/ui/`. The upstream MIT license is preserved in [SHADCN-LICENSE.md](SHADCN-LICENSE.md).
